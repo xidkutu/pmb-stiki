@@ -1,0 +1,23 @@
+/* here you can put your own css to customize and override the theme */
+.page-spinner-bar > div,
+.block-spinner-bar > div {
+  background: #6fa7d7;
+}
+.caption-light-1{
+	font-size: 20px;
+	padding: 10px 30px;
+	background: rgba(255, 255, 255, 0.52);
+    font: 400 38px/38px "PT Sans Narrow", Arial, sans-serif;
+	color: #000;
+}
+.text-light-1{
+	color: #fff;
+	/*
+	@padding: 10px 30px;
+	@background: rgba(255, 255, 255, 0.32);
+    @font: 400 38px/38px "PT Sans Narrow", Arial, sans-serif;
+	color: #000;
+	*/
+	font-size: 16px;
+	line-height: 30px;
+}

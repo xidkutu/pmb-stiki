@@ -1,0 +1,70 @@
+/* here you can put your own css to customize and override the theme */
+
+/***
+Rounded Portlets
+***/
+/*
+.portlet {
+	border-radius: 4px !important;
+}
+
+.portlet .portlet-title {
+	border-radius: 4px 4px 0px 0px !important;
+}
+
+.portlet .portlet-body,
+.portlet .portlet-body .form-actions  {
+	border-radius: 0px 0px 4px 4px !important;
+}
+*/
+.fancybox-overlay {
+	z-index: 10051 !important;
+}
+.table-printed tr td{
+    text-align: left;
+}
+.tablePad5 tr td{
+    padding: 5px;
+}
+.printable-foot table tr td{
+    padding:5px;
+}
+@media print {
+    .not-printable {
+        display: none !important;
+    }
+    .breadcrumb {
+        display: none !important;
+    }
+    .page-toolbar {
+        display: none !important;
+    }
+    .page-head{
+        display: none !important;
+    }
+    .printThis {
+        display: block !important;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .my_profile-sidebar{
+        float: right !important;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .my_banners{
+        display:block;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .my_banners{
+        display: none;
+    }
+}
+
+.clickable{
+    cursor: pointer;
+}
